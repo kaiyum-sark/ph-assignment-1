@@ -50,7 +50,7 @@ body{
 
 /* header */
 header{
-  background-image: url(/assets/Hero-bg.png);
+  background-image: url(../assets/banner-bg.png);
   height: 700px;
  
 }
@@ -113,6 +113,9 @@ main{
 .users{
   display: flex;
   justify-content: space-between;
+}
+.user{
+  padding: 20px;
 }
 .user h1{
   font-family: "Inter", sans-serif;
