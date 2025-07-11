@@ -1,0 +1,51 @@
+body{
+  background-color: #F5F8FF;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Font Style  */
+ .raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Shared Styles */
+.primary-color{
+  color:#4E47FF ;
+}
+.button{
+  color: white;
+  background-color: #4E47FF;
+  border-radius: 10px;
+}
+.button:hover{
+  color: #4E47FF;
+  font-weight: 600;
+  background-color:#F5F8FF;
+  border: 2px solid #4E47FF;
+}
+
+/* Navigation Bar  */
+ nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+ }
+ .logo{
+  color:#4E47FF ;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+ }
+ nav button{
+  height: 48px;
+  width: 132px;
+  font-size: 16px;
+  font-weight: bold;
+ }
