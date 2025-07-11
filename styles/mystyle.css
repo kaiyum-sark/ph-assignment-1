@@ -24,6 +24,7 @@ body{
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+  padding: 12px 36px;
 }
 .button:hover{
   color: #4E47FF;
@@ -31,6 +32,17 @@ body{
   background-color:#F5F8FF;
   border: 2px solid #4E47FF;
 }
+.section-title{
+  font-size: 40px;
+  font-weight: 700;
+  color: #252432;
+}
+
+/* shared color  */
+.black-2{
+  color: #252432;
+}
+
 /* header */
 header{
   background-image: url(/Assets/Hero-bg.png);
@@ -51,11 +63,6 @@ header{
   font-size: 34px;
   font-weight: 800;
  }
- nav button{
-  height: 48px;
-  width: 132px;
-
- }
  /* Hero Banner  */
  .banner{
   margin: 150px auto 200px auto;
@@ -68,13 +75,22 @@ header{
   font-size: 2em;
 }
 .banner button{
-  width: 180px;
-  height: 50px;
-  font-size: 16px;
   margin-top: 35px;
   
 }
 /* Main Section  */
 main{
   margin: 100px 150px;
+}
+.live-preview{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview-text{
+  font-size: 24px;
+}
+
+.live-preview img{
+  border-radius: 48px;
 }
